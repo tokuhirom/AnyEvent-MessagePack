@@ -36,3 +36,6 @@ Minilla-*
 /.build
 /Minilla-*
 minil.toml
+/AnyEvent-MessagePack-*
+/Build.bat
+!LICENSE
