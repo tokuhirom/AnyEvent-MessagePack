@@ -1,0 +1,20 @@
+.travis.yml
+Build.PL
+Changes
+lib/AnyEvent/MessagePack.pm
+LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
+README
+t/00_compile.t
+t/01_handle.t
+t/01_handle_error.t
+t/04_devided_packed.t
+t/05_RT74518-read_state.t
+xt/01_podspell.t
+xt/02_perlcritic.t
+xt/03_pod.t
+xt/04_minimum_version.t
+xt/05_cpan_meta.t
+xt/06_meta_author.t

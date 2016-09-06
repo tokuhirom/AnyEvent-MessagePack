@@ -1,0 +1,56 @@
+{
+   "abstract" : "MessagePack stream serializer/deserializer for AnyEvent",
+   "author" : [
+      "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "AnyEvent-MessagePack",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "AnyEvent" : "7.02",
+            "Data::MessagePack" : "0.46",
+            "Data::MessagePack::Stream" : "0.07",
+            "parent" : "0",
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "provides" : {
+      "AnyEvent::MessagePack" : {
+         "file" : "lib/AnyEvent/MessagePack.pm",
+         "version" : "0.19"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.19"
+}

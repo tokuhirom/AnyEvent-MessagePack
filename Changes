@@ -1,0 +1,5 @@
+Revision history for Perl extension AnyEvent::MessagePack
+
+0.19
+
+    - Split from AnyEvent::MPRPC's distribution.
