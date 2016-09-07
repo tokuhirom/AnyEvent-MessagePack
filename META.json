@@ -68,7 +68,7 @@
          "web" : "https://github.com/tokuhirom/AnyEvent-MessagePack"
       }
    },
-   "version" : "0.19",
+   "version" : "0.20",
    "x_contributors" : [
       "Tokuhiro Matsuno <tokuhirom@gmail.com>",
       "Syohei YOSHIDA <syohex@gmail.com>"
