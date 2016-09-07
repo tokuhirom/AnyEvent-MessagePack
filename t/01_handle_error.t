@@ -18,7 +18,7 @@ my $cv = AE::cv;
 
 {
     my $hdl = AnyEvent::Handle->new(fh => $fh, on_error  => sub { die 'wtf' });
-    $hdl->push_write("\xc1");
+    $hdl->push_write(undef);
     close $fh;
 }
 
