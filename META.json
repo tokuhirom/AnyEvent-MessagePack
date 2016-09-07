@@ -4,7 +4,7 @@
       "Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150001",
+   "generated_by" : "Minilla/v3.0.4, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -57,9 +57,21 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/AnyEvent-MessagePack/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/AnyEvent-MessagePack",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/AnyEvent-MessagePack.git",
+         "web" : "https://github.com/tokuhirom/AnyEvent-MessagePack"
+      }
+   },
    "version" : "0.19",
-   "x_authority" : "cpan:TOKUHIROM",
    "x_contributors" : [
-      "Tokuhiro Matsuno <tokuhirom@gmail.com>"
-   ]
+      "Tokuhiro Matsuno <tokuhirom@gmail.com>",
+      "Syohei YOSHIDA <syohex@gmail.com>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 2.27400"
 }
